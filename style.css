@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.outerbox{
+    height: 100vh;
+    /* background: linear-gradient(to top left , #3ed8ff,#a8f5ff); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(246, 241, 241, 0.318);
+    position: relative;
+    
+    
+}
+/* .ring{
+    height: 35rem;
+    width: 35rem;
+    position: absolute;
+    background-color: rgba(0, 97, 254, 0.263);
+    border-radius: 50%;
+    left: 50%;
+    transform: translateX(-20%);
+    top: 1rem;
+    z-index: -1;
+    filter: blur(12rem);
+} */
+.innerbox{
+   width: 400px;
+   border: 2px solid rgb(32, 32, 32);
+   padding: 1.5rem;
+   border-radius: 1rem;
+   align-items: center;
+   
+  
+}
+.signup h1{
+    margin-block: .5rem;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #181515;
+}
+.signup p{
+    font-size: 15px;
+    color: #555555ca;
+}
+.signup-body{
+    margin-block : 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem
+}
+.signup-body p label{
+    display: block;
+    font-size: .9rem;
+    font-weight: 300;
+    color: #212121;
+
+}
+.signup-body p input{
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #cccc;
+    background-color: transparent;
+    border-radius: 4px;
+    margin-top: 4px;
+}
+input::placeholder{
+    font-size: .9rem;
+    color: #6c6c6c;
+    text-transform: capitalize;
+}
+.signup-body p input[type="submit"]{
+    background-color: #0616f3;
+    color: white;
+    font-weight: 500;
+    border-radius: .5rem;
+    border: 0;
+    text-transform: capitalize;
+    letter-spacing: 110%;
+    outline: none;
+}
+.signup-footer p {
+    font-size: 1rem;
+    color: rgb(34, 33, 33);
+}
+.signup-footer a {
+    text-underline-offset: .3rem;
+}
